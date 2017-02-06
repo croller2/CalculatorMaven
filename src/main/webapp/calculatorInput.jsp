@@ -18,7 +18,7 @@
         <h1 style="text-align: center">Calculate Areas</h1>
             <div class="row">
             <div class="col-xs-4 col-xs-offset-4">
-                <h3>${type} is : ${area}</h3>  
+                <h3>The answer for a ${type} is : ${area}</h3>  
             </div>
             </div>
         <div class="row">
