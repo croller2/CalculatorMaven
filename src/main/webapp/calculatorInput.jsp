@@ -48,6 +48,10 @@
         </div>
         <div class="row">
             <div class="container">
+                <div class ="col-xs-4 col-xs-offset-4">
+                    
+                    <img style="margin:auto;" src="resources/images/circle.png" alt="circle">
+                </div>  
                 <div class="col-xs-4 col-xs-offset-4">
                     <h2 style="text-align: center">Circle</h2>
                     <form id="circleForm" name="circleForm" method="POST" action="calc?calcType=Circle">
@@ -62,6 +66,10 @@
         </div>
         <div class="row">
             <div class="container">
+                <div class ="col-xs-4 col-xs-offset-4">
+                    
+                    <img style="margin:auto;" src="resources/images/rightTriangle.png" alt="triangle">
+                </div>  
                 <div class="col-xs-4 col-xs-offset-4">
                     <h2 style="text-align: center">Triangle</h2>
                     <p>Given a right triangle with sides a and b, calculate side c
