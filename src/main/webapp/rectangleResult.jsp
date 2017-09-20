@@ -1,8 +1,3 @@
-<%-- 
-    Document   : rectangleResult
-    Created on : Feb 1, 2017, 8:22:25 AM
-    Author     : chris
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

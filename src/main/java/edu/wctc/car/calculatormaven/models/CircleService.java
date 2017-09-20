@@ -5,10 +5,6 @@
  */
 package edu.wctc.car.calculatormaven.models;
 
-/**
- *
- * @author chris
- */
 public class CircleService implements AreaCalculatorService {
     private double radius;
     

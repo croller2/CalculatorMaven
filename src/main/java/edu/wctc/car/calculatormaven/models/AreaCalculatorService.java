@@ -5,10 +5,6 @@
  */
 package edu.wctc.car.calculatormaven.models;
 
-/**
- *
- * @author chris
- */
 public interface AreaCalculatorService {
 
     double calculateArea();

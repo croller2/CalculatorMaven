@@ -37,7 +37,7 @@ public class Calculator extends HttpServlet {
         try{
             response.setContentType("text/html;charset=UTF-8");
             String calcType = request.getParameter("calcType");
-            
+           
             if(calcType.equalsIgnoreCase("rectangle")) {
                 String height = request.getParameter("rectangleHeight").trim();
                 String width = request.getParameter("rectangleWidth").trim();
@@ -60,8 +60,6 @@ public class Calculator extends HttpServlet {
                 request.setAttribute("type", "triangle");
             }
            
-
-
             RequestDispatcher view =
                     request.getRequestDispatcher(RESULT_PAGE);
             view.forward(request, response);

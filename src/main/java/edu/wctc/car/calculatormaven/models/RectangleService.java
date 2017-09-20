@@ -5,10 +5,6 @@
  */
 package edu.wctc.car.calculatormaven.models;
 
-/**
- *
- * @author chris
- */
 public class RectangleService implements AreaCalculatorService {
     private double width;
     private double height;

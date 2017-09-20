@@ -1,8 +1,3 @@
-<%-- 
-    Document   : calculatorInput
-    Created on : Feb 6, 2017, 9:34:37 AM
-    Author     : chris
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
