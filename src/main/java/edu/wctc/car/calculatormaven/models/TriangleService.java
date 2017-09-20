@@ -14,7 +14,7 @@ public class TriangleService {
         setSideB(sideB);
     }
 
-    private final void setSideA(String sideA) {
+    private void setSideA(String sideA) {
         try
         {
             double input = Double.parseDouble(sideA);

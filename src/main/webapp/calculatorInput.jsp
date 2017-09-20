@@ -51,7 +51,7 @@
                     <h2 style="text-align: center">Circle</h2>
                     <form id="circleForm" name="circleForm" method="POST" action="calc?calcType=Circle">
                             <div class="form-group">
-                                <label for="cirleRadius">Radius</label>
+                                <label for="circleRadius">Radius</label>
                                 <input type="text" class="form-control" id="circleRadius" name="circleRadius" placeholder="15.0" required>
                             </div>
                             <button type="submit" name="submit" class="btn btn-default">Calculate Area</button>
