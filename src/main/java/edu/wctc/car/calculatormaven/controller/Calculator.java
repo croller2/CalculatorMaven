@@ -46,7 +46,7 @@ public class Calculator extends HttpServlet {
                 request.setAttribute("area", area);
                 request.setAttribute("type", "rectangle");
             } else if(calcType.equalsIgnoreCase("circle")) {
-                String radius = request.getParameter("radius").trim();
+                String radius = request.getParameter("circleRadius").trim();
                 AreaCalculatorService calc = new CircleService(radius);
                 double area = calc.calculateArea();
                 request.setAttribute("area", area);
