@@ -18,7 +18,7 @@ public class CircleService implements AreaCalculatorService {
         return (Math.PI * radius * radius);
     }
 
-    private final void setRadius(String radius) {
+    private void setRadius(String radius) {
         try
         {
             double input = Double.parseDouble(radius);
